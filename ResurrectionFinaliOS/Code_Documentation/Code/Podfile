@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Resurrection Church' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Resurrection Church
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod ‘Fabric’
+  pod ’TwitterKit’
+  pod 'Firebase/Messaging'
+
+  target 'Resurrection ChurchTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

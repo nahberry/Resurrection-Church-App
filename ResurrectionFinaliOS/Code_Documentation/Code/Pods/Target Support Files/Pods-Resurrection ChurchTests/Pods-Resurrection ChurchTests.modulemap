@@ -1,0 +1,6 @@
+framework module Pods_Resurrection_ChurchTests {
+  umbrella header "Pods-Resurrection ChurchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

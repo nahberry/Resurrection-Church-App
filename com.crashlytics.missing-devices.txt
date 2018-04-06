@@ -1,0 +1,3 @@
+Device ID	Device Name
+21c3a90cb926440170fc924a0de72a538301692b	Lizzy - iPhone 6 Plus
+f51a4f7903760c5095d8e1ee6372244704d25b55	Nathan Hess - iPhone 6 Plus
