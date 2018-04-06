@@ -13,6 +13,7 @@ class weeklyScripture: UIViewController {
     @IBOutlet weak var scriptureHeading: UILabel!
     @IBOutlet weak var scriptureText: UITextView!
  
+    //Add database reference to Firebase
     var ref:DatabaseReference?
     
     override func viewDidLoad() {

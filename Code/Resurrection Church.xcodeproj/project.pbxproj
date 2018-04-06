@@ -8,25 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		14815DAA28203FDB56409EDC /* Pods_Resurrection_Church.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C725B45448817C9E66CCFEA4 /* Pods_Resurrection_Church.framework */; };
-		2F4D5B68205033EB005AB472 /* ABetterKing_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B67205033EB005AB472 /* ABetterKing_Dark.png */; };
-		2F4D5B69205033EB005AB472 /* ABetterKing_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B67205033EB005AB472 /* ABetterKing_Dark.png */; };
-		2F4D5B6B205037CC005AB472 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B6A205037CA005AB472 /* images.png */; };
-		2F4D5B6C205037CC005AB472 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B6A205037CA005AB472 /* images.png */; };
-		2F4D5B7220503A40005AB472 /* IMG_2109.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7020503A3E005AB472 /* IMG_2109.PNG */; };
-		2F4D5B7320503A40005AB472 /* IMG_2109.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7020503A3E005AB472 /* IMG_2109.PNG */; };
-		2F4D5B7420503A40005AB472 /* IMG_2110.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7120503A3F005AB472 /* IMG_2110.PNG */; };
-		2F4D5B7520503A40005AB472 /* IMG_2110.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7120503A3F005AB472 /* IMG_2110.PNG */; };
 		2F4D5B7720503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
 		2F4D5B7820503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
-		2F4D5B7A20504549005AB472 /* logo_reversed_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7920504549005AB472 /* logo_reversed_transparent.png */; };
-		2F4D5B7B20504549005AB472 /* logo_reversed_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7920504549005AB472 /* logo_reversed_transparent.png */; };
-		2F4D5B7D205045CD005AB472 /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7C205045CC005AB472 /* stripe.png */; };
-		2F4D5B7E205045CD005AB472 /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7C205045CC005AB472 /* stripe.png */; };
 		2F4D5B8020508ADF005AB472 /* weeklyScripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */; };
 		2F4D5B8120508ADF005AB472 /* weeklyScripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */; };
-		2F7438FC204CFC0700EA3E8C /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7438FA204CFC0600EA3E8C /* S.png */; };
-		2F7438FD204CFC0700EA3E8C /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7438FB204CFC0700EA3E8C /* C.png */; };
-		2F7438FF204CFF9000EA3E8C /* Sermons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7438FE204CFF8F00EA3E8C /* Sermons.png */; };
 		2F81A21F2050EB07006C9FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */; };
 		2F81A2202050EB07006C9FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */; };
 		2F81A22A2051D7AE006C9FD5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81A2292051D7AE006C9FD5 /* TableViewController.swift */; };
@@ -37,6 +22,15 @@
 		2F961EFF2072BB9500520B04 /* Connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F961EFD2072BB9500520B04 /* Connect.png */; };
 		2F961F012072BBE300520B04 /* ConnectSmallIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F961F002072BBE300520B04 /* ConnectSmallIcon.png */; };
 		2FCCDFFF2077EBCE008A236D /* connectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCDFFE2077EBCE008A236D /* connectVC.swift */; };
+		2FCCE00920780409008A236D /* Sermons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00220780408008A236D /* Sermons.png */; };
+		2FCCE00A20780409008A236D /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00320780408008A236D /* S.png */; };
+		2FCCE00B20780409008A236D /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00420780408008A236D /* stripe.png */; };
+		2FCCE00C20780409008A236D /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00520780408008A236D /* C.png */; };
+		2FCCE00D20780409008A236D /* ResurrectionAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00620780408008A236D /* ResurrectionAppIcon.png */; };
+		2FCCE012207804AC008A236D /* TWS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE010207804AC008A236D /* TWS.png */; };
+		2FCCE016207805C0008A236D /* Give.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE015207805C0008A236D /* Give.png */; };
+		2FCCE019207806E3008A236D /* bible.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE017207806E2008A236D /* bible.png */; };
+		2FCCE01A207806E3008A236D /* ABetterKing_Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE018207806E3008A236D /* ABetterKing_Dark.png */; };
 		C24F94F919798146008332AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F94F819798146008332AA /* Foundation.framework */; };
 		C24F94FB19798146008332AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F94FA19798146008332AA /* CoreGraphics.framework */; };
 		C24F94FD19798146008332AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F94FC19798146008332AA /* UIKit.framework */; };
@@ -74,8 +68,6 @@
 		CE8D9D9D1BD46EC1008CB9C1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8D9D911BD46EC1008CB9C1 /* StoreKit.framework */; };
 		CE8D9D9E1BD46EC1008CB9C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8D9D921BD46EC1008CB9C1 /* SystemConfiguration.framework */; };
 		CE9BFC181BD373D900C86859 /* launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9BFC171BD373D900C86859 /* launchscreen.storyboard */; };
-		CE9F17DF1CDCA7C500549AFD /* Tab_Bar_Icon_R@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9F17DE1CDCA7C500549AFD /* Tab_Bar_Icon_R@2x.png */; };
-		CED774EA1DE3E5B900189EB6 /* claycenter.png in Resources */ = {isa = PBXBuildFile; fileRef = CED774E91DE3E5B900189EB6 /* claycenter.png */; };
 		CEFDC8481E9205D2009E599C /* IMG_3326.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC8471E9205D2009E599C /* IMG_3326.PNG */; };
 		E354A5A014C6BC73D72B5A9C /* Pods_Resurrection_ChurchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B3D7C02C032B65B6A97535 /* Pods_Resurrection_ChurchTests.framework */; };
 /* End PBXBuildFile section */
@@ -92,17 +84,8 @@
 
 /* Begin PBXFileReference section */
 		253D336B9224548CAC7824D9 /* Pods-Resurrection ChurchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resurrection ChurchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resurrection ChurchTests/Pods-Resurrection ChurchTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F4D5B67205033EB005AB472 /* ABetterKing_Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ABetterKing_Dark.png; path = "../../../../../../RC Creative/A Better King/ABetterKing_Dark.png"; sourceTree = "<group>"; };
-		2F4D5B6A205037CA005AB472 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../../../../../../Downloads/images.png; sourceTree = "<group>"; };
-		2F4D5B7020503A3E005AB472 /* IMG_2109.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2109.PNG; path = "../../../../Resurrection App Resources/IMG_2109.PNG"; sourceTree = "<group>"; };
-		2F4D5B7120503A3F005AB472 /* IMG_2110.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2110.PNG; path = "../../../../Resurrection App Resources/IMG_2110.PNG"; sourceTree = "<group>"; };
 		2F4D5B7620503E1E005AB472 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
-		2F4D5B7920504549005AB472 /* logo_reversed_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_reversed_transparent.png; path = ../../../../../../../screen/logo_reversed_transparent.png; sourceTree = "<group>"; };
-		2F4D5B7C205045CC005AB472 /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stripe.png; path = ../../../../stripe.png; sourceTree = "<group>"; };
 		2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyScripture.swift; sourceTree = "<group>"; };
-		2F7438FA204CFC0600EA3E8C /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = S.png; path = "../../../../Resurrection App Resources/S.png"; sourceTree = "<group>"; };
-		2F7438FB204CFC0700EA3E8C /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.png; path = "../../../../Resurrection App Resources/C.png"; sourceTree = "<group>"; };
-		2F7438FE204CFF8F00EA3E8C /* Sermons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sermons.png; path = "../../../../Resurrection App Resources/Sermons.png"; sourceTree = "<group>"; };
 		2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2F81A2292051D7AE006C9FD5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2F81A22C2051D883006C9FD5 /* updatesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updatesTVC.swift; sourceTree = "<group>"; };
@@ -110,6 +93,15 @@
 		2F961EFD2072BB9500520B04 /* Connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connect.png; sourceTree = "<group>"; };
 		2F961F002072BBE300520B04 /* ConnectSmallIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectSmallIcon.png; sourceTree = "<group>"; };
 		2FCCDFFE2077EBCE008A236D /* connectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectVC.swift; sourceTree = "<group>"; };
+		2FCCE00220780408008A236D /* Sermons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sermons.png; path = Images/Sermons.png; sourceTree = SOURCE_ROOT; };
+		2FCCE00320780408008A236D /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = S.png; path = Images/S.png; sourceTree = SOURCE_ROOT; };
+		2FCCE00420780408008A236D /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stripe.png; path = Images/stripe.png; sourceTree = SOURCE_ROOT; };
+		2FCCE00520780408008A236D /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.png; path = Images/C.png; sourceTree = SOURCE_ROOT; };
+		2FCCE00620780408008A236D /* ResurrectionAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ResurrectionAppIcon.png; path = Images/ResurrectionAppIcon.png; sourceTree = SOURCE_ROOT; };
+		2FCCE010207804AC008A236D /* TWS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TWS.png; path = Images/TWS.png; sourceTree = SOURCE_ROOT; };
+		2FCCE015207805C0008A236D /* Give.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Give.png; path = Images/Give.png; sourceTree = SOURCE_ROOT; };
+		2FCCE017207806E2008A236D /* bible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bible.png; path = Images/bible.png; sourceTree = SOURCE_ROOT; };
+		2FCCE018207806E3008A236D /* ABetterKing_Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ABetterKing_Dark.png; path = Images/ABetterKing_Dark.png; sourceTree = SOURCE_ROOT; };
 		55105633A3757614CCE2A971 /* Pods-Resurrection Church.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resurrection Church.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resurrection Church/Pods-Resurrection Church.debug.xcconfig"; sourceTree = "<group>"; };
 		7AC9CFDDE57B7B96FF41A628 /* Pods-Resurrection Church.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resurrection Church.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resurrection Church/Pods-Resurrection Church.release.xcconfig"; sourceTree = "<group>"; };
 		80336DB6DBC15807FE89ADF7 /* Pods-Resurrection ChurchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resurrection ChurchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resurrection ChurchTests/Pods-Resurrection ChurchTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,9 +145,7 @@
 		CE8D9D9F1BD4707A008CB9C1 /* Resurrection Church-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resurrection Church-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE8D9DA01BD4707A008CB9C1 /* Resurrection ChurchTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resurrection ChurchTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE9BFC171BD373D900C86859 /* launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchscreen.storyboard; sourceTree = "<group>"; };
-		CE9F17DE1CDCA7C500549AFD /* Tab_Bar_Icon_R@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab_Bar_Icon_R@2x.png"; path = "../../../../Resurrection App Resources/Tab_Bar_Icon_R@2x.png"; sourceTree = "<group>"; };
 		CED62AC51DE8051800B7343A /* Resurrection Church.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Resurrection Church.entitlements"; path = "Resurrection Church/Resurrection Church.entitlements"; sourceTree = "<group>"; };
-		CED774E91DE3E5B900189EB6 /* claycenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = claycenter.png; path = "../../../../Resurrection App Resources/claycenter.png"; sourceTree = "<group>"; };
 		CEFDC8471E9205D2009E599C /* IMG_3326.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3326.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,22 +319,20 @@
 		CE9BFC191BD3871600C86859 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2FCCE018207806E3008A236D /* ABetterKing_Dark.png */,
+				2FCCE017207806E2008A236D /* bible.png */,
+				2FCCE015207805C0008A236D /* Give.png */,
+				2FCCE010207804AC008A236D /* TWS.png */,
+				2FCCE00520780408008A236D /* C.png */,
+				2FCCE00620780408008A236D /* ResurrectionAppIcon.png */,
+				2FCCE00320780408008A236D /* S.png */,
+				2FCCE00220780408008A236D /* Sermons.png */,
+				2FCCE00420780408008A236D /* stripe.png */,
 				2F961F002072BBE300520B04 /* ConnectSmallIcon.png */,
 				2F961EFD2072BB9500520B04 /* Connect.png */,
 				2F961EFC2072BB9500520B04 /* SermonsIcon.png */,
 				CE758F3F1C62DDC6002C1AF8 /* resurrectionchurchlogowhite.png */,
-				2F4D5B7C205045CC005AB472 /* stripe.png */,
-				2F4D5B7920504549005AB472 /* logo_reversed_transparent.png */,
-				2F4D5B7020503A3E005AB472 /* IMG_2109.PNG */,
-				2F4D5B7120503A3F005AB472 /* IMG_2110.PNG */,
-				2F4D5B6A205037CA005AB472 /* images.png */,
-				2F7438FE204CFF8F00EA3E8C /* Sermons.png */,
-				2F7438FB204CFC0700EA3E8C /* C.png */,
-				2F4D5B67205033EB005AB472 /* ABetterKing_Dark.png */,
-				2F7438FA204CFC0600EA3E8C /* S.png */,
 				CEFDC8471E9205D2009E599C /* IMG_3326.PNG */,
-				CED774E91DE3E5B900189EB6 /* claycenter.png */,
-				CE9F17DE1CDCA7C500549AFD /* Tab_Bar_Icon_R@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -461,26 +449,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24F951119798146008332AA /* Images.xcassets in Resources */,
-				2F7438FC204CFC0700EA3E8C /* S.png in Resources */,
-				CE9F17DF1CDCA7C500549AFD /* Tab_Bar_Icon_R@2x.png in Resources */,
+				2FCCE00B20780409008A236D /* stripe.png in Resources */,
+				2FCCE019207806E3008A236D /* bible.png in Resources */,
 				2F961EFE2072BB9500520B04 /* SermonsIcon.png in Resources */,
+				2FCCE01A207806E3008A236D /* ABetterKing_Dark.png in Resources */,
 				2F81A21F2050EB07006C9FD5 /* GoogleService-Info.plist in Resources */,
-				2F4D5B7220503A40005AB472 /* IMG_2109.PNG in Resources */,
+				2FCCE00A20780409008A236D /* S.png in Resources */,
 				2F961EFF2072BB9500520B04 /* Connect.png in Resources */,
-				2F4D5B68205033EB005AB472 /* ABetterKing_Dark.png in Resources */,
-				2F4D5B6B205037CC005AB472 /* images.png in Resources */,
-				2F4D5B7420503A40005AB472 /* IMG_2110.PNG in Resources */,
-				2F4D5B7A20504549005AB472 /* logo_reversed_transparent.png in Resources */,
-				2F7438FF204CFF9000EA3E8C /* Sermons.png in Resources */,
-				2F7438FD204CFC0700EA3E8C /* C.png in Resources */,
 				CEFDC8481E9205D2009E599C /* IMG_3326.PNG in Resources */,
 				C24F950319798146008332AA /* InfoPlist.strings in Resources */,
+				2FCCE012207804AC008A236D /* TWS.png in Resources */,
 				C24F950C19798146008332AA /* Main.storyboard in Resources */,
+				2FCCE00920780409008A236D /* Sermons.png in Resources */,
 				CE9BFC181BD373D900C86859 /* launchscreen.storyboard in Resources */,
+				2FCCE00C20780409008A236D /* C.png in Resources */,
+				2FCCE00D20780409008A236D /* ResurrectionAppIcon.png in Resources */,
 				CE758F401C62DDC6002C1AF8 /* resurrectionchurchlogowhite.png in Resources */,
 				2F961F012072BBE300520B04 /* ConnectSmallIcon.png in Resources */,
-				2F4D5B7D205045CD005AB472 /* stripe.png in Resources */,
-				CED774EA1DE3E5B900189EB6 /* claycenter.png in Resources */,
+				2FCCE016207805C0008A236D /* Give.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,16 +474,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4D5B6C205037CC005AB472 /* images.png in Resources */,
-				2F4D5B7E205045CD005AB472 /* stripe.png in Resources */,
 				C24F952219798146008332AA /* InfoPlist.strings in Resources */,
 				CE5899591D8657AA008A51E0 /* Main.storyboard in Resources */,
-				2F4D5B7B20504549005AB472 /* logo_reversed_transparent.png in Resources */,
 				CE26F13D1EE12EF400F704E6 /* Resurrection Church-Info.plist in Resources */,
-				2F4D5B7520503A40005AB472 /* IMG_2110.PNG in Resources */,
-				2F4D5B7320503A40005AB472 /* IMG_2109.PNG in Resources */,
 				2F81A2202050EB07006C9FD5 /* GoogleService-Info.plist in Resources */,
-				2F4D5B69205033EB005AB472 /* ABetterKing_Dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
