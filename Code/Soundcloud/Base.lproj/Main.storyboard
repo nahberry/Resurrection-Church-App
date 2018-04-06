@@ -153,7 +153,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the link below to access our secure giving portal!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Age-o3-dhd">
-                                <rect key="frame" x="16" y="233" width="343" height="127"/>
+                                <rect key="frame" x="16" y="233" width="343" height="126"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,19 +216,10 @@
                                         <rect key="frame" x="15" y="208" width="344" height="184"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.png" highlightedImage="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="cE3-wt-Wmx">
-                                        <rect key="frame" x="15" y="528" width="344" height="67"/>
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bible.png" highlightedImage="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="cE3-wt-Wmx">
+                                        <rect key="frame" x="150" y="527" width="74" height="91"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeL-bB-FbR">
-                                        <rect key="frame" x="11" y="528" width="352" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <segue destination="nFs-Zq-Cqn" kind="push" id="Ahc-U6-TpB"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEM-RI-oio">
                                         <rect key="frame" x="15" y="431" width="344" height="90"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
@@ -250,6 +241,15 @@
                                         <rect key="frame" x="48" y="28" width="278" height="99"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeL-bB-FbR">
+                                        <rect key="frame" x="11" y="537" width="352" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="nFs-Zq-Cqn" kind="push" id="Ahc-U6-TpB"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -309,23 +309,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="par-nb-pdk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="par-nb-pdk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TWS.png" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-DV-6PR">
-                                        <rect key="frame" x="10" y="6" width="354" height="119"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TWS.png" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-DV-6PR">
+                                        <rect key="frame" x="10" y="26" width="354" height="119"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="119" id="wq5-M9-GWW"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwE-qF-6z7">
-                                        <rect key="frame" x="26" y="189" width="322" height="407"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwE-qF-6z7">
+                                        <rect key="frame" x="187" y="209" width="0.0" height="0.0"/>
                                         <attributedString key="attributedText"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="znh-g5-nBU">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="znh-g5-nBU">
                                         <rect key="frame" x="10" y="189" width="354" height="409"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">Traditions and Commandments
 1. Now when the Pharisees gathered to him, with some of the scribes who had come from Jerusalem, 2. they saw that some of his disciples ate with hands that were defiled, that is, unwashed. 3. (For the Pharisees and all the Jews do not eat unless they wash their hands properly, holding to the tradition of the elders, 4. and when they come from the marketplace, they do not eat unless they wash. And there are many other traditions that they observe, such as the washing of cups and pots and copper vessels and dining couches.) 5. And the Pharisees and the scribes asked him, "Why do your disciples not walk according to the tradition of the elders, but eat with defiled hands?" 6. And he said to them, "Well did Isaiah prophesy of you hypocrites, as it is written,
@@ -340,18 +339,40 @@ teaching as doctrines the commandments of men.'
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mark 7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phv-xZ-SDK">
-                                        <rect key="frame" x="26" y="113" width="322" height="47"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark 7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phv-xZ-SDK">
+                                        <rect key="frame" x="149" y="133" width="76" height="47"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="47" id="706-rn-iK3"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="24"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1dI-DV-6PR" secondAttribute="trailing" constant="11" id="2er-z1-aVf"/>
+                                    <constraint firstAttribute="bottom" secondItem="1dI-DV-6PR" secondAttribute="bottom" constant="473" id="3cW-n1-nWN"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="leading" secondItem="par-nb-pdk" secondAttribute="leading" constant="10" id="6CK-Jf-0Lr"/>
+                                    <constraint firstItem="znh-g5-nBU" firstAttribute="top" secondItem="phv-xZ-SDK" secondAttribute="bottom" constant="29" id="6PJ-oG-Vvg"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="top" secondItem="par-nb-pdk" secondAttribute="top" constant="26" id="6rh-z3-w5z"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="trailing" secondItem="znh-g5-nBU" secondAttribute="trailing" id="Geg-fI-m8s"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="centerX" secondItem="DwE-qF-6z7" secondAttribute="centerX" id="P2W-eb-u7r"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="centerX" secondItem="par-nb-pdk" secondAttribute="centerX" id="XyB-FT-1yK"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="centerX" secondItem="phv-xZ-SDK" secondAttribute="centerX" id="bPN-nu-aoJ"/>
+                                    <constraint firstItem="DwE-qF-6z7" firstAttribute="top" secondItem="1dI-DV-6PR" secondAttribute="bottom" constant="64" id="cKn-xc-yAc"/>
+                                    <constraint firstItem="1dI-DV-6PR" firstAttribute="leading" secondItem="znh-g5-nBU" secondAttribute="leading" id="dQD-t2-FTg"/>
+                                    <constraint firstItem="phv-xZ-SDK" firstAttribute="top" secondItem="par-nb-pdk" secondAttribute="top" constant="133" id="j1P-Y7-hK9"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="par-nb-pdk" firstAttribute="top" secondItem="Yyn-rb-6SO" secondAttribute="top" id="aXk-US-RnM"/>
+                            <constraint firstAttribute="trailing" secondItem="par-nb-pdk" secondAttribute="trailing" id="enu-e1-79o"/>
+                            <constraint firstItem="par-nb-pdk" firstAttribute="leading" secondItem="Yyn-rb-6SO" secondAttribute="leading" id="lbM-Nr-2Tp"/>
+                            <constraint firstItem="par-nb-pdk" firstAttribute="bottom" secondItem="UUR-7p-5DT" secondAttribute="bottom" id="vVs-Yr-FSY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UUR-7p-5DT"/>
                     </view>
                     <navigationItem key="navigationItem" id="aCm-WS-rRv"/>
@@ -408,6 +429,7 @@ teaching as doctrines the commandments of men.'
         <image name="S.png" width="32" height="32"/>
         <image name="Sermons.png" width="1920" height="1080"/>
         <image name="TWS.png" width="2048" height="1024"/>
+        <image name="bible.png" width="225" height="225"/>
         <image name="images.png" width="225" height="225"/>
         <image name="stripe.png" width="1080" height="1080"/>
     </resources>
