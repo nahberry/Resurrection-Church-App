@@ -41,8 +41,6 @@
 		C24F951119798146008332AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24F951019798146008332AA /* Images.xcassets */; };
 		C24F951919798146008332AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F94F819798146008332AA /* Foundation.framework */; };
 		C24F951A19798146008332AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F94FC19798146008332AA /* UIKit.framework */; };
-		C24F952219798146008332AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C24F952019798146008332AA /* InfoPlist.strings */; };
-		C24F952419798146008332AA /* SoundcloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C24F952319798146008332AA /* SoundcloudTests.m */; };
 		CE1E67CA1EDC8229002B71B8 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E67C91EDC8229002B71B8 /* TwitterCore.framework */; };
 		CE1E67CC1EDC8231002B71B8 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E67CB1EDC8231002B71B8 /* TwitterKit.framework */; };
 		CE26F13D1EE12EF400F704E6 /* Resurrection Church-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE26F13B1EE12EF400F704E6 /* Resurrection Church-Info.plist */; };
@@ -118,9 +116,6 @@
 		C24F950B19798146008332AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C24F951019798146008332AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C24F951619798146008332AA /* Resurrection Church.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resurrection Church.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C24F951F19798146008332AA /* Resurrection ChurchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resurrection ChurchTests-Info.plist"; sourceTree = "<group>"; };
-		C24F952119798146008332AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C24F952319798146008332AA /* SoundcloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundcloudTests.m; sourceTree = "<group>"; };
 		C725B45448817C9E66CCFEA4 /* Pods_Resurrection_Church.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resurrection_Church.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1E67C91EDC8229002B71B8 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		CE1E67CB1EDC8231002B71B8 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
@@ -221,7 +216,6 @@
 				CED62AC51DE8051800B7343A /* Resurrection Church.entitlements */,
 				C24F94F719798146008332AA /* Frameworks */,
 				C24F94FE19798146008332AA /* Soundcloud */,
-				C24F951D19798146008332AA /* SoundcloudTests */,
 				C24F94F619798146008332AA /* Products */,
 				CE2D4DDD1DA4E2410028F1BA /* Fabric.framework */,
 				CE2D4DDE1DA4E2410028F1BA /* Crashlytics.framework */,
@@ -294,24 +288,6 @@
 				C24F950119798146008332AA /* InfoPlist.strings */,
 				C24F950419798146008332AA /* main.m */,
 				C24F950619798146008332AA /* Resurrection Church-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C24F951D19798146008332AA /* SoundcloudTests */ = {
-			isa = PBXGroup;
-			children = (
-				C24F952319798146008332AA /* SoundcloudTests.m */,
-				C24F951E19798146008332AA /* Supporting Files */,
-			);
-			path = SoundcloudTests;
-			sourceTree = "<group>";
-		};
-		C24F951E19798146008332AA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C24F951F19798146008332AA /* Resurrection ChurchTests-Info.plist */,
-				C24F952019798146008332AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -474,7 +450,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24F952219798146008332AA /* InfoPlist.strings in Resources */,
 				CE5899591D8657AA008A51E0 /* Main.storyboard in Resources */,
 				CE26F13D1EE12EF400F704E6 /* Resurrection Church-Info.plist in Resources */,
 				2F81A2202050EB07006C9FD5 /* GoogleService-Info.plist in Resources */,
@@ -639,7 +614,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C24F952419798146008332AA /* SoundcloudTests.m in Sources */,
 				2F4D5B7820503E1E005AB472 /* mainViewController.swift in Sources */,
 				2F81A22B2051D7AE006C9FD5 /* TableViewController.swift in Sources */,
 				2F81A22E2051D883006C9FD5 /* updatesTVC.swift in Sources */,
@@ -672,14 +646,6 @@
 				C24F950B19798146008332AA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C24F952019798146008332AA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C24F952119798146008332AA /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
