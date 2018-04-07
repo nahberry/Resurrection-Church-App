@@ -10,9 +10,10 @@ import UIKit
 import FirebaseDatabase
 
 class weeklyScripture: UIViewController {
+    
     @IBOutlet weak var scriptureHeading: UILabel!
     @IBOutlet weak var scriptureText: UITextView!
- 
+    
     //Add database reference to Firebase
     var ref:DatabaseReference?
     
