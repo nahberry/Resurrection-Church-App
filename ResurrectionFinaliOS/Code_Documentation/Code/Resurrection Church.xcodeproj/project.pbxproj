@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		14815DAA28203FDB56409EDC /* Pods_Resurrection_Church.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C725B45448817C9E66CCFEA4 /* Pods_Resurrection_Church.framework */; };
+		2F3AB933207D266D00726511 /* seriesWVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AB932207D266D00726511 /* seriesWVC.swift */; };
+		2F3AB93A207D2C5600726511 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB934207D2C5400726511 /* index.html */; };
+		2F3AB93B207D2C5600726511 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB935207D2C5500726511 /* LICENSE.txt */; };
+		2F3AB93C207D2C5600726511 /* generic.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB936207D2C5500726511 /* generic.html */; };
+		2F3AB93D207D2C5600726511 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB937207D2C5500726511 /* assets */; };
+		2F3AB93E207D2C5600726511 /* elements.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB938207D2C5500726511 /* elements.html */; };
+		2F3AB93F207D2C5600726511 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AB939207D2C5500726511 /* images */; };
+		2F3AB941207D361D00726511 /* giveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AB940207D361D00726511 /* giveVC.swift */; };
 		2F4D5B7720503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
 		2F4D5B7820503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
 		2F4D5B8020508ADF005AB472 /* weeklyScripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */; };
@@ -82,6 +90,14 @@
 
 /* Begin PBXFileReference section */
 		253D336B9224548CAC7824D9 /* Pods-Resurrection ChurchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resurrection ChurchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resurrection ChurchTests/Pods-Resurrection ChurchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3AB932207D266D00726511 /* seriesWVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seriesWVC.swift; sourceTree = "<group>"; };
+		2F3AB934207D2C5400726511 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = series_html/index.html; sourceTree = "<group>"; };
+		2F3AB935207D2C5500726511 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = series_html/LICENSE.txt; sourceTree = "<group>"; };
+		2F3AB936207D2C5500726511 /* generic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = generic.html; path = series_html/generic.html; sourceTree = "<group>"; };
+		2F3AB937207D2C5500726511 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = series_html/assets; sourceTree = "<group>"; };
+		2F3AB938207D2C5500726511 /* elements.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = elements.html; path = series_html/elements.html; sourceTree = "<group>"; };
+		2F3AB939207D2C5500726511 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = series_html/images; sourceTree = "<group>"; };
+		2F3AB940207D361D00726511 /* giveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giveVC.swift; sourceTree = "<group>"; };
 		2F4D5B7620503E1E005AB472 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyScripture.swift; sourceTree = "<group>"; };
 		2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -267,13 +283,21 @@
 				C20A28C1197E51EE00B5B4ED /* Data */,
 				C24F950719798146008332AA /* AppDelegate.h */,
 				C24F950819798146008332AA /* AppDelegate.m */,
-				2FCCDFFE2077EBCE008A236D /* connectVC.swift */,
 				2F4D5B7620503E1E005AB472 /* mainViewController.swift */,
-				2F81A22C2051D883006C9FD5 /* updatesTVC.swift */,
+				2F3AB932207D266D00726511 /* seriesWVC.swift */,
 				2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */,
+				2FCCDFFE2077EBCE008A236D /* connectVC.swift */,
+				2F81A22C2051D883006C9FD5 /* updatesTVC.swift */,
 				2F81A2292051D7AE006C9FD5 /* TableViewController.swift */,
+				2F3AB940207D361D00726511 /* giveVC.swift */,
 				C24F950A19798146008332AA /* Main.storyboard */,
 				CE9BFC171BD373D900C86859 /* launchscreen.storyboard */,
+				2F3AB937207D2C5500726511 /* assets */,
+				2F3AB938207D2C5500726511 /* elements.html */,
+				2F3AB936207D2C5500726511 /* generic.html */,
+				2F3AB939207D2C5500726511 /* images */,
+				2F3AB934207D2C5400726511 /* index.html */,
+				2F3AB935207D2C5500726511 /* LICENSE.txt */,
 				CE8D9D9F1BD4707A008CB9C1 /* Resurrection Church-Bridging-Header.h */,
 				CE8D9DA01BD4707A008CB9C1 /* Resurrection ChurchTests-Bridging-Header.h */,
 			);
@@ -424,12 +448,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3AB93F207D2C5600726511 /* images in Resources */,
+				2F3AB93B207D2C5600726511 /* LICENSE.txt in Resources */,
+				2F3AB93C207D2C5600726511 /* generic.html in Resources */,
+				2F3AB93A207D2C5600726511 /* index.html in Resources */,
 				C24F951119798146008332AA /* Images.xcassets in Resources */,
 				2FCCE00B20780409008A236D /* stripe.png in Resources */,
 				2FCCE019207806E3008A236D /* bible.png in Resources */,
 				2F961EFE2072BB9500520B04 /* SermonsIcon.png in Resources */,
 				2FCCE01A207806E3008A236D /* ABetterKing_Dark.png in Resources */,
 				2F81A21F2050EB07006C9FD5 /* GoogleService-Info.plist in Resources */,
+				2F3AB93E207D2C5600726511 /* elements.html in Resources */,
+				2F3AB93D207D2C5600726511 /* assets in Resources */,
 				2FCCE00A20780409008A236D /* S.png in Resources */,
 				2F961EFF2072BB9500520B04 /* Connect.png in Resources */,
 				CEFDC8481E9205D2009E599C /* IMG_3326.PNG in Resources */,
@@ -605,6 +635,8 @@
 				2F4D5B7720503E1E005AB472 /* mainViewController.swift in Sources */,
 				C24F950919798146008332AA /* AppDelegate.m in Sources */,
 				2FCCDFFF2077EBCE008A236D /* connectVC.swift in Sources */,
+				2F3AB941207D361D00726511 /* giveVC.swift in Sources */,
+				2F3AB933207D266D00726511 /* seriesWVC.swift in Sources */,
 				C24F950519798146008332AA /* main.m in Sources */,
 				2F4D5B8020508ADF005AB472 /* weeklyScripture.swift in Sources */,
 			);

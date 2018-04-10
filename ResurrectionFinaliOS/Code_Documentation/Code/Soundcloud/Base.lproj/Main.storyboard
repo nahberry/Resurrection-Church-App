@@ -78,7 +78,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Connect.png" translatesAutoresizingMaskIntoConstraints="NO" id="5fV-qI-QOq">
-                                <rect key="frame" x="83" y="35" width="209" height="77"/>
+                                <rect key="frame" x="83" y="33" width="209" height="79"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8dS-mD-xL9">
@@ -122,7 +122,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNt-Z2-cHz">
-                                <rect key="frame" x="92" y="554" width="191" height="44"/>
+                                <rect key="frame" x="92" y="553" width="191" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.75924016497461932" green="0.69091390310049672" blue="0.54512255395535991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="S E N D">
@@ -171,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="-2847" y="-123"/>
         </scene>
-        <!--View Controller-->
+        <!--GiveVC-->
         <scene sceneID="7vK-oE-Waj">
             <objects>
-                <viewController id="VZq-5e-UUm" sceneMemberID="viewController">
+                <viewController id="VZq-5e-UUm" customClass="giveVC" customModule="Resurrection_Church" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8to-GJ-37B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,13 +183,6 @@
                                 <rect key="frame" x="16" y="586" width="343" height="181"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C O N T I N U E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82p-aD-EO5">
-                                <rect key="frame" x="16" y="403" width="343" height="161"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the link below to access our secure giving portal!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Age-o3-dhd">
                                 <rect key="frame" x="16" y="274" width="343" height="149"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -198,9 +191,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Give.png" translatesAutoresizingMaskIntoConstraints="NO" id="aVq-g7-txo">
-                                <rect key="frame" x="70" y="62" width="235" height="111"/>
+                                <rect key="frame" x="70" y="62" width="235" height="108"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRW-gX-8OJ">
+                                <rect key="frame" x="16" y="488" width="343" height="54"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="C O N T I N U E">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openLink:" destination="VZq-5e-UUm" eventType="touchUpInside" id="BXa-OK-atg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZI9-Te-ApV"/>
@@ -209,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuM-wo-ahi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2351" y="-123"/>
+            <point key="canvasLocation" x="-2351.5" y="-123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EEv-ZY-Ive">
@@ -241,7 +245,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C U R R E N T  S E R I E S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hu-cj-bpi">
-                                        <rect key="frame" x="15" y="162" width="344" height="26"/>
+                                        <rect key="frame" x="15" y="162" width="344" height="24"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
                                         <color key="textColor" red="0.75924016500000002" green="0.6909139031" blue="0.54512255399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -255,7 +259,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ABetterKing_Dark.png" highlightedImage="ABetterKing_Dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="eSY-Su-C1i" customClass="FXImageView" customModule="Resurrection_Church">
-                                        <rect key="frame" x="15" y="245" width="344" height="217"/>
+                                        <rect key="frame" x="15" y="242" width="344" height="219"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bible.png" highlightedImage="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="cE3-wt-Wmx">
@@ -263,7 +267,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEM-RI-oio">
-                                        <rect key="frame" x="15" y="515" width="344" height="107"/>
+                                        <rect key="frame" x="15" y="513" width="344" height="109"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                         <state key="normal" title=".">
                                             <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -273,7 +277,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5i-lR-NJi">
-                                        <rect key="frame" x="15" y="245" width="344" height="217"/>
+                                        <rect key="frame" x="15" y="242" width="344" height="219"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -369,7 +373,7 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HBE-8T-uD5">
                                 <rect key="frame" x="16" y="257" width="343" height="472"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -389,21 +393,35 @@
             </objects>
             <point key="canvasLocation" x="-3937" y="-123"/>
         </scene>
-        <!--View Controller-->
+        <!--SeriesWVC-->
         <scene sceneID="Qs9-pc-LMq">
             <objects>
-                <viewController id="LHq-cs-B67" sceneMemberID="viewController">
+                <viewController id="LHq-cs-B67" customClass="seriesWVC" customModule="Resurrection_Church" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AH2-Ce-thM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggy-le-xV4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zg8-Mb-V8a"/>
                     </view>
                     <navigationItem key="navigationItem" id="C8C-vd-gun"/>
+                    <connections>
+                        <outlet property="seriesWebView" destination="ggy-le-xV4" id="44b-lr-bRo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vRv-3z-Cui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3411" y="-123"/>
+            <point key="canvasLocation" x="-3411.5" y="-123"/>
         </scene>
     </scenes>
     <resources>
