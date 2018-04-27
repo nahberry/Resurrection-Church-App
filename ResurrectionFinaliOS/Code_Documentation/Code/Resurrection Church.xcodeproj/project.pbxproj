@@ -18,22 +18,22 @@
 		2F3AB941207D361D00726511 /* giveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AB940207D361D00726511 /* giveVC.swift */; };
 		2F4D5B7720503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
 		2F4D5B7820503E1E005AB472 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7620503E1E005AB472 /* mainViewController.swift */; };
-		2F4D5B8020508ADF005AB472 /* weeklyScripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */; };
-		2F4D5B8120508ADF005AB472 /* weeklyScripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */; };
 		2F81A21F2050EB07006C9FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */; };
 		2F81A2202050EB07006C9FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */; };
 		2F81A22A2051D7AE006C9FD5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81A2292051D7AE006C9FD5 /* TableViewController.swift */; };
 		2F81A22B2051D7AE006C9FD5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81A2292051D7AE006C9FD5 /* TableViewController.swift */; };
 		2F81A22D2051D883006C9FD5 /* updatesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81A22C2051D883006C9FD5 /* updatesTVC.swift */; };
 		2F81A22E2051D883006C9FD5 /* updatesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F81A22C2051D883006C9FD5 /* updatesTVC.swift */; };
+		2F88602F208A2AD1001EEB77 /* Scripture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F88602E208A2AD1001EEB77 /* Scripture.swift */; };
+		2F886031208A3205001EEB77 /* gold.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2F886030208A3205001EEB77 /* gold.JPG */; };
+		2F886033208A34C9001EEB77 /* give_receive.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2F886032208A34C8001EEB77 /* give_receive.JPG */; };
 		2F961EFE2072BB9500520B04 /* SermonsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F961EFC2072BB9500520B04 /* SermonsIcon.png */; };
 		2F961EFF2072BB9500520B04 /* Connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F961EFD2072BB9500520B04 /* Connect.png */; };
 		2F961F012072BBE300520B04 /* ConnectSmallIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F961F002072BBE300520B04 /* ConnectSmallIcon.png */; };
+		2FA3162D2090D587007EDE80 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3162C2090D587007EDE80 /* ErrorHandling.swift */; };
 		2FCCDFFF2077EBCE008A236D /* connectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCDFFE2077EBCE008A236D /* connectVC.swift */; };
 		2FCCE00920780409008A236D /* Sermons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00220780408008A236D /* Sermons.png */; };
-		2FCCE00A20780409008A236D /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00320780408008A236D /* S.png */; };
 		2FCCE00B20780409008A236D /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00420780408008A236D /* stripe.png */; };
-		2FCCE00C20780409008A236D /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00520780408008A236D /* C.png */; };
 		2FCCE00D20780409008A236D /* ResurrectionAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE00620780408008A236D /* ResurrectionAppIcon.png */; };
 		2FCCE012207804AC008A236D /* TWS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE010207804AC008A236D /* TWS.png */; };
 		2FCCE016207805C0008A236D /* Give.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCCE015207805C0008A236D /* Give.png */; };
@@ -99,18 +99,20 @@
 		2F3AB939207D2C5500726511 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = series_html/images; sourceTree = "<group>"; };
 		2F3AB940207D361D00726511 /* giveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giveVC.swift; sourceTree = "<group>"; };
 		2F4D5B7620503E1E005AB472 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
-		2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyScripture.swift; sourceTree = "<group>"; };
 		2F81A21E2050EB07006C9FD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2F81A2292051D7AE006C9FD5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2F81A22C2051D883006C9FD5 /* updatesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updatesTVC.swift; sourceTree = "<group>"; };
+		2F88602E208A2AD1001EEB77 /* Scripture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scripture.swift; sourceTree = "<group>"; };
+		2F886030208A3205001EEB77 /* gold.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gold.JPG; path = Images/gold.JPG; sourceTree = SOURCE_ROOT; };
+		2F886032208A34C8001EEB77 /* give_receive.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = give_receive.JPG; path = Images/give_receive.JPG; sourceTree = SOURCE_ROOT; };
+		2F88603B208A3A3C001EEB77 /* mountains.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mountains.JPG; path = "/Users/NateHess/Documents/GitHub/Resurrection-Church-App/ResurrectionFinaliOS/Code_Documentation/Code/Soundcloud/mountains.JPG"; sourceTree = "<absolute>"; };
 		2F961EFC2072BB9500520B04 /* SermonsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SermonsIcon.png; sourceTree = "<group>"; };
 		2F961EFD2072BB9500520B04 /* Connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connect.png; sourceTree = "<group>"; };
 		2F961F002072BBE300520B04 /* ConnectSmallIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectSmallIcon.png; sourceTree = "<group>"; };
+		2FA3162C2090D587007EDE80 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		2FCCDFFE2077EBCE008A236D /* connectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectVC.swift; sourceTree = "<group>"; };
 		2FCCE00220780408008A236D /* Sermons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sermons.png; path = Images/Sermons.png; sourceTree = SOURCE_ROOT; };
-		2FCCE00320780408008A236D /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = S.png; path = Images/S.png; sourceTree = SOURCE_ROOT; };
 		2FCCE00420780408008A236D /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stripe.png; path = Images/stripe.png; sourceTree = SOURCE_ROOT; };
-		2FCCE00520780408008A236D /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.png; path = Images/C.png; sourceTree = SOURCE_ROOT; };
 		2FCCE00620780408008A236D /* ResurrectionAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ResurrectionAppIcon.png; path = Images/ResurrectionAppIcon.png; sourceTree = SOURCE_ROOT; };
 		2FCCE010207804AC008A236D /* TWS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TWS.png; path = Images/TWS.png; sourceTree = SOURCE_ROOT; };
 		2FCCE015207805C0008A236D /* Give.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Give.png; path = Images/Give.png; sourceTree = SOURCE_ROOT; };
@@ -285,11 +287,12 @@
 				C24F950819798146008332AA /* AppDelegate.m */,
 				2F4D5B7620503E1E005AB472 /* mainViewController.swift */,
 				2F3AB932207D266D00726511 /* seriesWVC.swift */,
-				2F4D5B7F20508ADF005AB472 /* weeklyScripture.swift */,
 				2FCCDFFE2077EBCE008A236D /* connectVC.swift */,
 				2F81A22C2051D883006C9FD5 /* updatesTVC.swift */,
 				2F81A2292051D7AE006C9FD5 /* TableViewController.swift */,
 				2F3AB940207D361D00726511 /* giveVC.swift */,
+				2F88602E208A2AD1001EEB77 /* Scripture.swift */,
+				2FA3162C2090D587007EDE80 /* ErrorHandling.swift */,
 				C24F950A19798146008332AA /* Main.storyboard */,
 				CE9BFC171BD373D900C86859 /* launchscreen.storyboard */,
 				2F3AB937207D2C5500726511 /* assets */,
@@ -319,13 +322,14 @@
 		CE9BFC191BD3871600C86859 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2F886032208A34C8001EEB77 /* give_receive.JPG */,
+				2F886030208A3205001EEB77 /* gold.JPG */,
 				2FCCE018207806E3008A236D /* ABetterKing_Dark.png */,
+				2F88603B208A3A3C001EEB77 /* mountains.JPG */,
 				2FCCE017207806E2008A236D /* bible.png */,
 				2FCCE015207805C0008A236D /* Give.png */,
 				2FCCE010207804AC008A236D /* TWS.png */,
-				2FCCE00520780408008A236D /* C.png */,
 				2FCCE00620780408008A236D /* ResurrectionAppIcon.png */,
-				2FCCE00320780408008A236D /* S.png */,
 				2FCCE00220780408008A236D /* Sermons.png */,
 				2FCCE00420780408008A236D /* stripe.png */,
 				2F961F002072BBE300520B04 /* ConnectSmallIcon.png */,
@@ -451,6 +455,7 @@
 				2F3AB93F207D2C5600726511 /* images in Resources */,
 				2F3AB93B207D2C5600726511 /* LICENSE.txt in Resources */,
 				2F3AB93C207D2C5600726511 /* generic.html in Resources */,
+				2F886033208A34C9001EEB77 /* give_receive.JPG in Resources */,
 				2F3AB93A207D2C5600726511 /* index.html in Resources */,
 				C24F951119798146008332AA /* Images.xcassets in Resources */,
 				2FCCE00B20780409008A236D /* stripe.png in Resources */,
@@ -460,15 +465,14 @@
 				2F81A21F2050EB07006C9FD5 /* GoogleService-Info.plist in Resources */,
 				2F3AB93E207D2C5600726511 /* elements.html in Resources */,
 				2F3AB93D207D2C5600726511 /* assets in Resources */,
-				2FCCE00A20780409008A236D /* S.png in Resources */,
 				2F961EFF2072BB9500520B04 /* Connect.png in Resources */,
 				CEFDC8481E9205D2009E599C /* IMG_3326.PNG in Resources */,
 				C24F950319798146008332AA /* InfoPlist.strings in Resources */,
 				2FCCE012207804AC008A236D /* TWS.png in Resources */,
 				C24F950C19798146008332AA /* Main.storyboard in Resources */,
+				2F886031208A3205001EEB77 /* gold.JPG in Resources */,
 				2FCCE00920780409008A236D /* Sermons.png in Resources */,
 				CE9BFC181BD373D900C86859 /* launchscreen.storyboard in Resources */,
-				2FCCE00C20780409008A236D /* C.png in Resources */,
 				2FCCE00D20780409008A236D /* ResurrectionAppIcon.png in Resources */,
 				CE758F401C62DDC6002C1AF8 /* resurrectionchurchlogowhite.png in Resources */,
 				2F961F012072BBE300520B04 /* ConnectSmallIcon.png in Resources */,
@@ -498,6 +502,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Resurrection Church/Pods-Resurrection Church-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -505,6 +510,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -635,10 +641,11 @@
 				2F4D5B7720503E1E005AB472 /* mainViewController.swift in Sources */,
 				C24F950919798146008332AA /* AppDelegate.m in Sources */,
 				2FCCDFFF2077EBCE008A236D /* connectVC.swift in Sources */,
+				2F88602F208A2AD1001EEB77 /* Scripture.swift in Sources */,
 				2F3AB941207D361D00726511 /* giveVC.swift in Sources */,
+				2FA3162D2090D587007EDE80 /* ErrorHandling.swift in Sources */,
 				2F3AB933207D266D00726511 /* seriesWVC.swift in Sources */,
 				C24F950519798146008332AA /* main.m in Sources */,
-				2F4D5B8020508ADF005AB472 /* weeklyScripture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +656,6 @@
 				2F4D5B7820503E1E005AB472 /* mainViewController.swift in Sources */,
 				2F81A22B2051D7AE006C9FD5 /* TableViewController.swift in Sources */,
 				2F81A22E2051D883006C9FD5 /* updatesTVC.swift in Sources */,
-				2F4D5B8120508ADF005AB472 /* weeklyScripture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

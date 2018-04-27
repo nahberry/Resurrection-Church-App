@@ -11,6 +11,7 @@ target 'Resurrection Church' do
   pod ‘Fabric’
   pod ’TwitterKit’
   pod 'Firebase/Messaging'
+  pod 'SCLAlertView'
 
   target 'Resurrection ChurchTests' do
     inherit! :search_paths

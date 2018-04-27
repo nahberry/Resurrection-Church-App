@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0CD4D96D46F20972E1E03C9DBA0C9F6"
+               BlueprintIdentifier = "3FDC20953DA63D605A2C8F2CF3BBFD92"
                BuildableName = "Pods_Resurrection_Church.framework"
                BlueprintName = "Pods-Resurrection Church"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0CD4D96D46F20972E1E03C9DBA0C9F6"
+            BlueprintIdentifier = "3FDC20953DA63D605A2C8F2CF3BBFD92"
             BuildableName = "Pods_Resurrection_Church.framework"
             BlueprintName = "Pods-Resurrection Church"
             ReferencedContainer = "container:Pods.xcodeproj">

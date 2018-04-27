@@ -14,6 +14,7 @@ class seriesWVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         
         //Remember to check for network connection when the html file is hosted.
         
